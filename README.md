@@ -1,12 +1,44 @@
-# React + Vite
+PicPrompt - The AI Drawing & Guessing Game
+Welcome to PicPrompt, a real-time, multiplayer party game where creativity and deception collide! One player writes a secret prompt, an AI generates an image based on it, and the other players must guess the original prompt. Can you fool your friends with a clever fake prompt, or can you deduce the real one from the AI's masterpiece?
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project was built with modern web technologies, providing a fast, responsive, and engaging experience for all players.
 
-Currently, two official plugins are available:
+✨ Features
+Real-time Multiplayer: Play with friends from anywhere, with game state synchronized instantly using Firebase.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+AI Image Generation: Watch as text prompts are turned into unique, often hilarious, images using Google's generative AI.
 
-## Expanding the ESLint configuration
+Deception-Based Gameplay: It's not just about being right! Earn points by tricking other players into voting for your fake prompt.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Player Avatars: Customize your identity with a unique color and icon combination.
+
+Custom Game Settings: The host can control the number of rounds and the timer speed for a tailored experience.
+
+End-of-Game Awards: Celebrate fun moments with special titles like "Most Deceptive" and "Master Detective" at the end of the game.
+
+Host Controls: The host can kick inactive players to keep the game moving.
+
+Robust & Resilient: Features automatic host migration if the original host disconnects, ensuring the game never gets stuck.
+
+🛠️ Tech Stack
+Frontend: React, Vite
+
+Backend & Database: Firebase (Firestore for real-time data, Firebase Authentication)
+
+Styling: Tailwind CSS
+
+AI Image Generation: Google AI Platform (Imagen)
+
+Audio: Tone.js
+
+🚀 Getting Started
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
+
+Prerequisites
+Node.js (v18 or later recommended)
+
+npm (comes with Node.js)
+
+A Firebase project with Firestore and Anonymous Authentication enabled.
+
+A Google AI Platform API key with the Imagen model enabled.
